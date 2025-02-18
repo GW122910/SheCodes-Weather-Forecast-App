@@ -1,0 +1,12 @@
+body {
+  background-color: hotpink;
+}
+
+.main-container {
+  background: white;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: -1px 0px 22px 10px rgba(237, 237, 237, 0.67);
+}
