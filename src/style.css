@@ -1,5 +1,5 @@
 body {
-  background-color: hotpink;
+  background-color: rgb(255, 240, 248);
 }
 
 .main-container {
@@ -9,4 +9,27 @@ body {
   padding: 30px;
   border-radius: 10px;
   box-shadow: -1px 0px 22px 10px rgba(237, 237, 237, 0.67);
+}
+
+.search-box {
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid rgb(179, 179, 179);
+  text-indent: 5px;
+  width: 250px;
+}
+
+.search-button {
+  height: 30px;
+  width: 90px;
+  color: white;
+  background-color: rgb(159, 159, 159, 0.939);
+  border-radius: 5px;
+  border: 1px solid rgba(159, 159, 159, 0.939);
+}
+
+.search-button:hover {
+  cursor: pointer;
+  background-color: rgb(0, 79, 249);
+  border: 1px solid rgb(0, 79, 249);
 }
