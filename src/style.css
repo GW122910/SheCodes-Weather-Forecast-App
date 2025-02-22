@@ -3,6 +3,22 @@ body {
   font-family: "Roboto", serif;
 }
 
+header {
+  border-bottom: 1px solid rgba(205, 204, 204, 0.499);
+  padding: 0px 0px 25px 0px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+footer {
+  border-top: 1px solid rgba(205, 204, 204, 0.499);
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+  font-size: 12px;
+}
+
 .main-container {
   background: white;
   max-width: 600px;
@@ -31,6 +47,7 @@ body {
   border: 1px solid rgba(159, 159, 159, 0.939);
   padding: 7.5px 10px;
   font-size: 15px;
+  margin-left: 5px;
 }
 
 .search-button:hover {
