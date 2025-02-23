@@ -10,18 +10,22 @@ header {
 
 h1 {
   margin-top: 10px;
+  text-align: center;
 }
 
+a {
+  color: rgb(0, 79, 249);
+}
 footer {
   border-top: 1px solid rgba(205, 204, 204, 0.499);
   padding: 10px 0px 0px 0px;
   text-align: center;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .main-container {
   background: white;
-  max-width: 600px;
+  max-width: 550px;
   margin: 45px auto;
   padding: 30px;
   border-radius: 10px;
@@ -34,24 +38,64 @@ footer {
   padding: 16px 10px;
   border: 1px solid rgb(179, 179, 179);
   text-indent: 5px;
-  width: 60%;
+  width: 70%;
   font-size: 15px;
   background-color: rgba(255, 232, 214, 0.28);
+  margin-left: 30px;
 }
 
 .search-button {
   width: 90px;
   color: white;
-  background-color: rgb(159, 159, 159, 0.939);
   border-radius: 5px;
-  border: 1px solid rgba(159, 159, 159, 0.939);
   padding: 7.5px 10px;
   font-size: 15px;
   margin-left: 5px;
+  background-color: rgb(0, 79, 249);
+  border: 1px solid rgb(0, 79, 249);
 }
 
 .search-button:hover {
   cursor: pointer;
-  background-color: rgb(0, 79, 249);
-  border: 1px solid rgb(0, 79, 249);
+  background-color: rgb(159, 159, 159, 0.939);
+  border: 1px solid rgba(159, 159, 159, 0.939);
+}
+
+.weather-data-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+
+.weather-data-city {
+  margin: 0px;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.weather-data-details {
+  font-size: 14px;
+  line-height: 20px;
+  color: #7a7a7a;
+}
+
+.weather-data-details strong {
+  color: rgb(0, 79, 249);
+}
+.weather-current-icon {
+  font-size: 50px;
+  position: relative;
+  right: -8px;
+}
+
+.weather-data-temperature {
+  font-size: 65px;
+  font-weight: bolder;
+}
+
+.degree {
+  font-size: 30px;
+  position: relative;
+  bottom: 36px;
+  right: 21px;
 }
