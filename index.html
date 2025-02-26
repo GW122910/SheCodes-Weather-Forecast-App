@@ -29,17 +29,18 @@
     <body>
       <div class="weather-data-container">
         <div>
-          <h2 id="city" class="weather-data-city">Bangkok</h2>
+          <h2 id="city" class="weather-data-city"></h2>
           <p class="weather-data-details">
             Tuesday 17 February 14:46, sunny day
             <br />
-            Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>, Air
-            Quality Index: <strong>2</strong>
+            Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>,
+            Feels like: <strong>2&degC</strong>
           </p>
         </div>
         <div class="weather-data-temperature">
           <span class="weather-current-icon">☀️</span>
-          20 <span class="degree">&degC</span>
+          <span class="current-temperature" id="current-temperature"></span>
+          <span class="degree">&degC</span>
         </div>
       </div>
     </body>
