@@ -83,20 +83,18 @@ footer {
 .weather-data-details strong {
   color: rgb(0, 79, 249);
 }
+
 .weather-current-icon {
-  font-size: 50px;
-  position: relative;
-  right: -8px;
+  width: 70px;
+  height: 70px;
 }
 
 .weather-data-temperature {
   font-size: 65px;
   font-weight: bolder;
+  display: flex;
 }
 
 .degree {
-  font-size: 30px;
-  position: relative;
-  bottom: 36px;
-  right: 21px;
+  font-size: 25px;
 }
