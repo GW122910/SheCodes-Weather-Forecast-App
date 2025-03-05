@@ -98,3 +98,36 @@ footer {
 .degree {
   font-size: 25px;
 }
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 38px;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  color: rgb(0, 79, 249);
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.weather-forecast-temperature {
+  padding: 0 5px;
+  margin-bottom: 35px;
+}
